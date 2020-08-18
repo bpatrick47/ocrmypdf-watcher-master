@@ -1,0 +1,27 @@
+{
+  "name": "ocrmypdf-filewatcher",
+  "version": "0.0.1",
+  "description": "A filewatcher for pdf files executing ocrmypdf on changed files",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "chokidar": "^3.4.2",
+    "fs": "0.0.1-security"
+  },
+  "engines": {
+    "node": "10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tofixx/ocrmypdf-watcher"
+  },
+  "keywords": [
+    "filewatcher",
+    "ocrmypdf"
+  ],
+  "author": "Tobias Wollowski",
+  "license": "MIT"
+}
